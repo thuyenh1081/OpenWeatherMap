@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='D:\Work\NAB\Automation\OpenWeatherMapTestNgMaven\OpenWeatherMap\target\surefire-reports\testRun_screenshots\chrome_check_the_display_incase_result_is_not_empty_12_03_2022_12_35_57.png'> <img src='D:\Work\NAB\Automation\OpenWeatherMapTestNgMaven\OpenWeatherMap\target\surefire-reports\testRun_screenshots\chrome_check_the_display_incase_result_is_not_empty_12_03_2022_12_35_57.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='D:\Work\NAB\Automation\OpenWeatherMapTestNgMaven\OpenWeatherMap\target\surefire-reports\testRun_screenshots\chrome_check_the_display_incase_there_is_no_result_12_03_2022_12_36_04.png'> <img src='D:\Work\NAB\Automation\OpenWeatherMapTestNgMaven\OpenWeatherMap\target\surefire-reports\testRun_screenshots\chrome_check_the_display_incase_there_is_no_result_12_03_2022_12_36_04.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='D:\Work\NAB\Automation\OpenWeatherMapTestNgMaven\OpenWeatherMap\target\surefire-reports\testRun_screenshots\chrome_check_the_display_incase_there_is_no_result_12_03_2022_12_36_08.png'> <img src='D:\Work\NAB\Automation\OpenWeatherMapTestNgMaven\OpenWeatherMap\target\surefire-reports\testRun_screenshots\chrome_check_the_display_incase_there_is_no_result_12_03_2022_12_36_08.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='D:\Work\NAB\Automation\OpenWeatherMapTestNgMaven\OpenWeatherMap\target\surefire-reports\testRun_screenshots\chrome_check_the_display_incase_there_is_no_result_12_03_2022_12_36_11.png'> <img src='D:\Work\NAB\Automation\OpenWeatherMapTestNgMaven\OpenWeatherMap\target\surefire-reports\testRun_screenshots\chrome_check_the_display_incase_there_is_no_result_12_03_2022_12_36_11.png' height='100' width='100'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="61716" started-at="2022-03-12T12:35:10 ICT" finished-at="2022-03-12T12:36:11 ICT">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="61716" started-at="2022-03-12T12:35:10 ICT" finished-at="2022-03-12T12:36:11 ICT">
+      <class name="Test.SearchFunction">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Test.SearchFunction@2b9627bc]" name="setup" is-config="true" duration-ms="22421" started-at="2022-03-12T12:35:10 ICT" finished-at="2022-03-12T12:35:32 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="check_the_display_incase_result_is_not_empty()[pri:0, instance:Test.SearchFunction@2b9627bc]" name="check_the_display_incase_result_is_not_empty" duration-ms="24851" started-at="2022-03-12T12:35:32 ICT" finished-at="2022-03-12T12:35:57 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_the_display_incase_result_is_not_empty -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test.SearchFunction@2b9627bc]" name="afterMethod" is-config="true" duration-ms="2004" started-at="2022-03-12T12:35:57 ICT" finished-at="2022-03-12T12:35:59 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_the_display_incase_result_is_not_empty status=SUCCESS method=SearchFunction.check_the_display_incase_result_is_not_empty()[pri:0, instance:Test.SearchFunction@2b9627bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='D:\Work\NAB\Automation\OpenWeatherMapTestNgMaven\OpenWeatherMap\target\surefire-reports\testRun_screenshots\chrome_check_the_display_incase_result_is_not_empty_12_03_2022_12_35_57.png'> <img src='D:\Work\NAB\Automation\OpenWeatherMapTestNgMaven\OpenWeatherMap\target\surefire-reports\testRun_screenshots\chrome_check_the_display_incase_result_is_not_empty_12_03_2022_12_35_57.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="check_the_display_incase_there_is_no_result(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchFunction@2b9627bc]" name="check_the_display_incase_there_is_no_result" duration-ms="4412" started-at="2022-03-12T12:35:59 ICT" data-provider="SearchProvider" finished-at="2022-03-12T12:36:04 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ha    noi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[×
+Not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_the_display_incase_there_is_no_result -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test.SearchFunction@2b9627bc]" name="afterMethod" is-config="true" duration-ms="986" started-at="2022-03-12T12:36:04 ICT" finished-at="2022-03-12T12:36:05 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_the_display_incase_there_is_no_result status=SUCCESS method=SearchFunction.check_the_display_incase_there_is_no_result(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchFunction@2b9627bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='D:\Work\NAB\Automation\OpenWeatherMapTestNgMaven\OpenWeatherMap\target\surefire-reports\testRun_screenshots\chrome_check_the_display_incase_there_is_no_result_12_03_2022_12_36_04.png'> <img src='D:\Work\NAB\Automation\OpenWeatherMapTestNgMaven\OpenWeatherMap\target\surefire-reports\testRun_screenshots\chrome_check_the_display_incase_there_is_no_result_12_03_2022_12_36_04.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="check_the_display_incase_there_is_no_result(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchFunction@2b9627bc]" name="check_the_display_incase_there_is_no_result" duration-ms="3036" started-at="2022-03-12T12:36:05 ICT" data-provider="SearchProvider" finished-at="2022-03-12T12:36:08 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!<fjks]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[×
+Not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_the_display_incase_there_is_no_result -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test.SearchFunction@2b9627bc]" name="afterMethod" is-config="true" duration-ms="140" started-at="2022-03-12T12:36:08 ICT" finished-at="2022-03-12T12:36:08 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_the_display_incase_there_is_no_result status=SUCCESS method=SearchFunction.check_the_display_incase_there_is_no_result(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchFunction@2b9627bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='D:\Work\NAB\Automation\OpenWeatherMapTestNgMaven\OpenWeatherMap\target\surefire-reports\testRun_screenshots\chrome_check_the_display_incase_there_is_no_result_12_03_2022_12_36_08.png'> <img src='D:\Work\NAB\Automation\OpenWeatherMapTestNgMaven\OpenWeatherMap\target\surefire-reports\testRun_screenshots\chrome_check_the_display_incase_there_is_no_result_12_03_2022_12_36_08.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="check_the_display_incase_there_is_no_result(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchFunction@2b9627bc]" name="check_the_display_incase_there_is_no_result" duration-ms="3097" started-at="2022-03-12T12:36:08 ICT" data-provider="SearchProvider" finished-at="2022-03-12T12:36:11 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<script>alert(123)</script>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[×
+Not found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_the_display_incase_there_is_no_result -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Test.SearchFunction@2b9627bc]" name="afterMethod" is-config="true" duration-ms="392" started-at="2022-03-12T12:36:11 ICT" finished-at="2022-03-12T12:36:11 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_the_display_incase_there_is_no_result status=SUCCESS method=SearchFunction.check_the_display_incase_there_is_no_result(java.lang.String,java.lang.String)[pri:0, instance:Test.SearchFunction@2b9627bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='D:\Work\NAB\Automation\OpenWeatherMapTestNgMaven\OpenWeatherMap\target\surefire-reports\testRun_screenshots\chrome_check_the_display_incase_there_is_no_result_12_03_2022_12_36_11.png'> <img src='D:\Work\NAB\Automation\OpenWeatherMapTestNgMaven\OpenWeatherMap\target\surefire-reports\testRun_screenshots\chrome_check_the_display_incase_there_is_no_result_12_03_2022_12_36_11.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="DoSomeThingAfterEachTest()[pri:0, instance:Test.SearchFunction@2b9627bc]" name="DoSomeThingAfterEachTest" is-config="true" duration-ms="0" started-at="2022-03-12T12:36:11 ICT" finished-at="2022-03-12T12:36:11 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSomeThingAfterEachTest -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:Test.SearchFunction@2b9627bc]" name="clean" is-config="true" duration-ms="458" started-at="2022-03-12T12:36:12 ICT" finished-at="2022-03-12T12:36:12 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+      </class> <!-- Test.SearchFunction -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>

@@ -1,0 +1,6 @@
+rootpackage\Pages\DetailSearchPage.class
+Test\SearchFunction.class
+steps\SearchUIStep.class
+rootpackage\Pages\ResultSearchPage.class
+rootpackage\Pages\HomePage.class
+rootpackage\Pages\CommonPage.class

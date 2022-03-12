@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 104.18 s <<< FAILURE! - in TestSuite
+check_the_display_incase_result_is_not_empty(Test.SearchFunction)  Time elapsed: 13.731 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+The element reference of <i> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'ADMIN', ip: '192.168.183.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [146fcf84-1e7c-4759-877a-8c45f91d8d46, getElementText {id=1d550a8e-8fe2-459d-acb8-11aa798c89a7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220304153049, moz:debuggerAddress: localhost:58852, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12968, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58852/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[[[[[[[[[[[FirefoxDriver: firefox on WINDOWS (146fcf84-1e7c-4759-877a-8c45f91d8d46)] -> id: forecast-list]] -> xpath: .//table[*]]] -> xpath: .//tr[*]]] -> tag name: td]] -> tag name: b]] -> tag name: i]
+Session ID: 146fcf84-1e7c-4759-877a-8c45f91d8d46
+	at Test.SearchFunction.check_the_display_incase_result_is_not_empty(SearchFunction.java:63)
+
+check_the_display_incase_there_is_no_result(Test.SearchFunction)  Time elapsed: 1.016 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+The element reference of <div id="forecast-list" class="tab-pane active"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'ADMIN', ip: '192.168.183.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [146fcf84-1e7c-4759-877a-8c45f91d8d46, findChildElement {id=b74075ef-1742-4c7e-8a71-cb2ddd4d9f64, using=xpath, value=.//div[@class='alert alert-warning']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220304153049, moz:debuggerAddress: localhost:58852, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12968, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58852/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 146fcf84-1e7c-4759-877a-8c45f91d8d46
+	at Test.SearchFunction.check_the_display_incase_there_is_no_result(SearchFunction.java:80)
+
+check_the_display_incase_there_is_no_result(Test.SearchFunction)  Time elapsed: 1.246 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+The element reference of <input name="q" type="text"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'ADMIN', ip: '192.168.183.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [146fcf84-1e7c-4759-877a-8c45f91d8d46, sendKeysToElement {id=ab82cb41-7a41-4328-90da-1c55717f48e6, value=[Ljava.lang.CharSequence;@4f69188b}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 98.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220304153049, moz:debuggerAddress: localhost:58852, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12968, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58852/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[[[FirefoxDriver: firefox on WINDOWS (146fcf84-1e7c-4759-877a-8c45f91d8d46)] -> xpath: //nav[@id='nav-website']]] -> xpath: .//input[@placeholder='Weather in your city']]
+Session ID: 146fcf84-1e7c-4759-877a-8c45f91d8d46
+	at Test.SearchFunction.check_the_display_incase_there_is_no_result(SearchFunction.java:78)
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="58650" started-at="2022-03-10T20:55:09 ICT" finished-at="2022-03-10T20:56:08 ICT">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="40841" started-at="2022-03-10T20:55:09 ICT" finished-at="2022-03-10T20:55:50 ICT">
+      <class name="Test.SearchFunction">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Test.SearchFunction@536aaa8d]" name="setup" is-config="true" duration-ms="21754" started-at="2022-03-10T20:55:09 ICT" finished-at="2022-03-10T20:55:31 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Verify_the_display_of_the_result_in_the_detail_area()[pri:0, instance:Test.SearchFunction@536aaa8d]" name="Verify_the_display_of_the_result_in_the_detail_area" duration-ms="19004" started-at="2022-03-10T20:55:31 ICT" finished-at="2022-03-10T20:55:50 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_the_display_of_the_result_in_the_detail_area -->
+      </class> <!-- Test.SearchFunction -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="58650" started-at="2022-03-10T20:55:09 ICT" finished-at="2022-03-10T20:56:08 ICT">
+      <class name="Test.SearchFunction">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Test.SearchFunction@7a187f14]" name="setup" is-config="true" duration-ms="52638" started-at="2022-03-10T20:55:09 ICT" finished-at="2022-03-10T20:56:02 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Verify_the_display_of_the_result_in_the_detail_area()[pri:0, instance:Test.SearchFunction@7a187f14]" name="Verify_the_display_of_the_result_in_the_detail_area" duration-ms="6011" started-at="2022-03-10T20:56:02 ICT" finished-at="2022-03-10T20:56:08 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_the_display_of_the_result_in_the_detail_area -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:Test.SearchFunction@7a187f14]" name="clean" is-config="true" duration-ms="155" started-at="2022-03-10T20:56:08 ICT" finished-at="2022-03-10T20:56:08 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+      </class> <!-- Test.SearchFunction -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
